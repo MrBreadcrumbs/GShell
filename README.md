@@ -1,18 +1,28 @@
 # GShell
 basic windows shell written in golang with some enumeration functionality added
 
+
 To compile:
-(linux) \n
+
+(linux)
+
 $ env GOOS=target-OS GOARCH=target-architecture go build -o gshell.exe main.go
 
-(windows) \n
-set GOOS=Windows \n
-set GOARCH=target-arch \n
-go build -o gshell.exe main.go \n
+(windows)
+
+set GOOS=Windows
+
+set GOARCH=target-arch
+
+go build -o gshell.exe main.go
+
 
 supported os/arch:
+
 windows/386
+
 windows/amd64
+
 
 TODO:
 add functionality for arguments to cd, handle spaces in path
