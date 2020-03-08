@@ -2,7 +2,7 @@
 basic windows shell written in golang with some enumeration functionality added
 
 
-To compile:
+# To compile:
 
 (linux)
 
@@ -17,14 +17,14 @@ set GOARCH=target-arch
 go build -o gshell.exe main.go
 
 
-supported os/arch:
+# supported os/arch:
 
 windows/386
 
 windows/amd64
 
 
-TODO:
+# TODO:
 add functionality for arguments to cd, handle spaces in path
 
 add functionality for arguments to ls, handle spaces in path
