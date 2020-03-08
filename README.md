@@ -2,13 +2,13 @@
 basic windows shell written in golang with some enumeration functionality added
 
 To compile:
-(linux)
+(linux) \n
 $ env GOOS=target-OS GOARCH=target-architecture go build -o gshell.exe main.go
 
-(windows)
-set GOOS=Windows
-set GOARCH=target-arch
-go build -o gshell.exe main.go
+(windows) \n
+set GOOS=Windows \n
+set GOARCH=target-arch \n
+go build -o gshell.exe main.go \n
 
 supported os/arch:
 windows/386
