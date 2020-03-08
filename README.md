@@ -1,2 +1,4 @@
 # GShell
-golang shell with some enumeration functionality added
+basic shell written in golang with some enumeration functionality added
+
+work in progress
