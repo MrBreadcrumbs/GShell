@@ -10,7 +10,7 @@ $ env GOOS=target-OS GOARCH=target-architecture go build -o gshell.exe main.go
 
 (windows)
 
-set GOOS=Windows
+set GOOS=windows
 
 set GOARCH=target-arch
 
